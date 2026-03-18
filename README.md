@@ -109,6 +109,38 @@ C-DAC Bangalore
 
 ---
 
-## 📜 License
+##APT-Detection-Response/
+│
+├── README.md
+├── Project-Report/
+│   └── APT_Detection_Report.pdf
+│
+├── Architecture/
+│   ├── diagrams.png
+│   └── workflow.png
+│
+├── Screenshots/
+│   ├── wazuh/
+│   ├── n8n/
+│   └── alerts/
+│
+├── n8n-workflows/
+│   └── apt_workflow.json
+│
+├── wazuh-config/
+│   ├── rules/
+│   ├── decoders/
+│   └── agent-config/
+│
+├── scripts/
+│   ├── auto_block.sh
+│   ├── alert_parser.py
+│
+├── database/
+│   └── schema.sql
+│
+└── docs/
+    ├── setup-guide.md
+    └── architecture.md
 
 This project is for educational and research purposes.
